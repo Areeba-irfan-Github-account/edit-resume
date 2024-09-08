@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic page</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <form id="userForm">
+            <h1 id="head">Dynamic and Added Page By Areeba Irfan</h1>
+            <div>
+                <h2>Personal Information</h2>
+                <input id="name" placeholder="Name">
+                <br>
+                <input id="email" placeholder="Email">
+                <br>
+                <input id="phone" placeholder="Phone">
+            </div>
+            <div>
+                Education
+                <br>
+                <input  id="education" placeholder="education">
+            </div>
+            <div>
+                Skills
+                <br>
+                <input  id="skills" placeholder="Skills">
+            </div>
+
+            <button type="submit">Click here to make your resume</button>
+        </form>
+
+        <div id="result" class="hidden">
+            <h2 id="rom">Your Resume</h2>
+            <p id="displayName"></p>
+            <p id="displayEmail"></p>
+            <p id="displayPhone"></p>
+            <p id="displayEducation"></p>
+            <p id="displaySkills"></p>
+            <button id="editButton">Edit the Resume</button>
+
+        </div>
+        <form id="editform"  class="hidden">
+            <h1 id="head">EDITED Page By Areeba Irfan</h1>
+            <div>
+                <h2>Edited Information</h2>
+                <input id="editname" placeholder="Name">
+                <br>
+                <input id="editemail" placeholder="Email">
+                <br>
+                <input id="editphone" placeholder="Phone">
+            </div>
+            <div>
+                Education
+                <br>
+                <input  id="editeducation" placeholder="education">
+            </div>
+            <div>
+                Skills
+                <br>
+                <input  id="editskills" placeholder="Skills">
+            </div>
+
+            <button type="submit">Save changes</button>
+        </form>
+    </div>
+</body>
+
+<script src="index.js"></script>
+</html>
